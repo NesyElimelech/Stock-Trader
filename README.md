@@ -1,24 +1,8 @@
 # the-stock-trade
 
-## Project setup
-```
-npm install
-```
+A simple app to trade stocks of the most popular companies in the market.
+In this app I've used Vue.js, Vuex, Vue-Router and firebase.
+For the UI I've used Vuesax framwork.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# https://vue-stock-trader-92db3.web.app/

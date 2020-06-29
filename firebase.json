@@ -1,0 +1,23 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "dist/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "appAssociation": "AUTO",
+    "rewrites": [ {
+      "source": "**",
+      "destination": "dist/index.html"
+    },{
+      "source": "!/@(js|css)/**",
+      "destination": "dist/index.html"
+    } ]
+  }
+  
+}
